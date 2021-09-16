@@ -1,0 +1,19 @@
+package estudovetor;
+
+public class testeVetorVariaveisPrimitivas {
+
+	public static void main(String[] args) {
+
+		// Arrays
+		int[] valores = new int[4];
+		valores[0] = 300;
+		valores[1] = 250;
+		valores[2] = 3589;
+		valores[3] = 125;
+		
+		for (int i=0; i <4; i++)
+		System.out.println("Valores["+ i +"]: " + valores[i]);
+
+	}
+
+}
